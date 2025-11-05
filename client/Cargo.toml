@@ -3,6 +3,10 @@ name = "client"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "client"
+path = "src/lib.rs"
+
 [dependencies]
 mpl-token-metadata = { version = "5.1.0" }
 anchor-client = "0.31.1"
